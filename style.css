@@ -1,0 +1,149 @@
+
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+nav {
+    width: 100%;
+    background-color: aqua;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+nav ul li {
+    float: left;
+    color: black;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+#content {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#question-container {
+    margin-top: 20px;
+    background-color: rgb(57, 172, 201);
+    width: 900px;
+    height: 480px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 50px;
+    
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: black;
+    background-color:darksalmon;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+#next-question {
+    background-color:  darksalmon
+     
+}
+#progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#progress {
+    height: 5px;
+    background-color: #4caf50;
+    width: 0%;
+}
+
+#progress-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 280px;
+    margin-left: 600px;
+}
+#user-info-form {
+width: 300px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #f9f9f9;
+}
+
+/* Style the form labels */
+#user-info-form label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #333;
+}
+
+/* Style the form inputs and select elements */
+#user-info-form input[type="number"],
+#user-info-form select {
+width: calc(100% - 22px);
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 3px;
+box-sizing: border-box;
+}
+
+/* Style the submit button */
+#user-info-form button[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#user-info-form button[type="submit"]:hover {
+background-color: #45a049;
+}
+
+/* Add some margin between the form elements */
+#user-info-form br {
+margin-bottom: 10px;
+}
+ 
